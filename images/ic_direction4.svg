@@ -1,0 +1,18 @@
+<svg width="70" height="73" viewBox="0 0 70 73" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M40.0534 21.3731L49.3469 29.7486L21.2927 60.5661C19.8056 62.1997 17.2697 62.3251 15.6286 60.8462L12.2778 57.8264C10.6368 56.3475 10.512 53.8242 11.9991 52.1906L40.0534 21.3731Z" stroke="#6067AB" stroke-width="4"/>
+<line y1="-2" x2="25.7656" y2="-2" transform="matrix(0.741623 0.670817 -0.674525 0.738252 36.0049 15.9639)" stroke="#6067AB" stroke-width="4"/>
+<line y1="-2" x2="15.331" y2="-2" transform="matrix(0.735772 0.677229 -0.67933 0.733833 55.1133 3)" stroke="#6067AB" stroke-width="4"/>
+<line y1="-2" x2="7.35151" y2="-2" transform="matrix(0.708884 0.705325 -0.708884 0.705325 16.0278 45.3462)" stroke="#6067AB" stroke-width="4"/>
+<line y1="-2" x2="7.35151" y2="-2" transform="matrix(0.708884 0.705325 -0.708884 0.705325 22.1079 38.4316)" stroke="#6067AB" stroke-width="4"/>
+<line y1="-2" x2="7.35151" y2="-2" transform="matrix(0.708884 0.705325 -0.708884 0.705325 31.6621 28.0615)" stroke="#6067AB" stroke-width="4"/>
+<line y1="-2" x2="15.331" y2="-2" transform="matrix(0.736502 0.676435 -0.680122 0.733099 27.3193 33.2471)" stroke="#6067AB" stroke-width="4"/>
+<rect x="0.110169" y="2.32457" width="3.29941" height="19.9494" transform="matrix(0.741472 0.670984 -0.674691 0.738101 60.237 5.81418)" stroke="#6067AB" stroke-width="3.29941"/>
+<line y1="-2" x2="13.4778" y2="-2" transform="matrix(0.708884 -0.705325 0.708884 0.705325 3 70.4072)" stroke="#6067AB" stroke-width="4"/>
+<rect x="50.11" y="47.2906" width="11.7452" height="3.8889" stroke="#6067AB" stroke-width="3.8889"/>
+<line x1="45.5596" y1="44.2095" x2="67.2736" y2="44.2095" stroke="#6067AB" stroke-width="4"/>
+<path d="M44.085 58.2593C44.085 56.0501 45.8758 54.2593 48.085 54.2593H63.8789C66.0881 54.2593 67.8789 56.0501 67.8789 58.2593V71.0001H44.085V58.2593Z" stroke="#6067AB" stroke-width="4"/>
+<mask id="path-13-inside-1" fill="white">
+<rect x="49.0342" y="59.1733" width="13.897" height="7.77781" rx="2"/>
+</mask>
+<rect x="49.0342" y="59.1733" width="13.897" height="7.77781" rx="2" stroke="#6067AB" stroke-width="7.77781" mask="url(#path-13-inside-1)"/>
+</svg>

@@ -1,0 +1,753 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+	---------------*/
+    body{
+        font-size: 13px;
+    }
+
+
+    .main_title {
+        font-size: 26px;
+    }
+
+
+    .text_block h1,
+    .text_block .title{
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .text_block h3{
+        margin-bottom: 10px;
+    }
+
+    .text_block h4
+    {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .text_block ol li
+    {
+        padding-left: 32px;
+    }
+
+    .text_block ol li:before
+    {
+        top: 3px;
+        font-size: 14px;
+    }
+
+    .text_block ol.big li + li
+    {
+        margin-top: 30px;
+    }
+
+    .text_block ol.big li
+    {
+        padding-left: 0;
+        padding-top: 74px;
+    }
+
+    .text_block blockquote
+    {
+        padding-left: 0;
+        border-left: none;
+    }
+
+    .text_block .box_adress .metro_stations div + div
+    {
+        margin-top: 6px;
+    }
+
+    .text_block .box_contacts .phone
+    {
+        margin-top: 10px;
+    }
+
+    .text_block .box_contacts .phone a
+    {
+        font-size: 24px;
+    }
+
+    .text_block .box_contacts .callback_btn
+    {
+        font-size: 13px;
+        margin-top: 11px;
+    }
+
+
+    .form .input{
+        font-size: 13px;
+    }
+
+    .form textarea{
+        font-size: 13px;
+    }
+
+    .form .agree{
+        font-size: 12px;
+    }
+
+    .select_wrap .nice-select .current{
+        font-size: 13px;
+    }
+
+    .form .wrap_bot .submit{
+        width: 100%;
+    }
+
+    .form .submit_btn{
+        min-width: 1px;
+        width: 100%;
+    }
+
+
+    .page_btn a{
+        width: 100%;
+        min-width: 1px;
+    }
+
+
+    .tabs_btn
+    {
+        margin-left: -8px;
+    }
+
+    .tabs_btn button
+    {
+        height: 40px;
+        padding: 0 21px;
+        margin: 10px 0 0 10px;
+        font-size: 13px;
+    }
+
+
+    .text_block ul li
+    {
+        padding-left: 0;
+        text-indent: 20px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 4px;
+        width: 12px;
+        height: 12px;
+        border-width: 2px;
+    }
+
+
+    .breadcrumbs
+    {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .breadcrumbs .sep
+    {
+        width: 6px;
+        height: 6px;
+        margin: 0 5px;
+    }
+    /*---------------
+        Header
+	---------------*/
+
+    header .top
+    {
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    header .logo a
+    {
+        justify-content: center;
+        font-size: 10px;
+    }
+
+    header .logo img
+    {
+        max-height: 28px;
+    }
+
+    header .logo .logo_text
+    {
+        margin-top: 7px;
+        width: 100%;
+        max-width: 165px;
+        margin-left: 0;
+        text-align: center;
+
+        display: none;
+    }
+
+    header.main_header .logo .logo_text{
+        display: block;
+    }
+
+    header .open_search.mob
+    {
+        align-self: flex-start;
+        margin-top: 2px;
+    }
+
+    header .info
+    {
+        padding-top: 0;
+    }
+
+    header .mob_box,
+    header .mob_box .box_contacts
+    {
+        text-align: center;
+    }
+
+    header .mob_box .signUp_btn
+    {
+        min-width: 1px;
+        width: 100%;
+    }
+
+    .search_content
+    {
+        padding-top: 56px;
+    }
+
+    .close_search
+    {
+        top: 15px;
+    }
+
+    .search_content .title_mob
+    {
+        font-size: 26px;
+    }
+
+    .search_form .input
+    {
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .search_form .submit_btn
+    {
+        width: 24px;
+        margin-left: -24px;
+        height: 30px;
+    }
+
+    .search_list
+    {
+        margin-top: 30px;
+    }
+
+    .search_list .item .name
+    {
+        font-size: 18px;
+    }
+
+    .search_list .item * + .desc
+    {
+        margin-top: 10px;
+    }
+
+    /*---------------
+        Main section
+	---------------*/
+
+    .section_awards
+    {
+        margin-top: 30px;
+    }
+
+    .section_awards .award
+    {
+        width: 100%;
+    }
+
+    .section_awards .award .img
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .section_awards .award .desc
+    {
+        font-size: 12px;
+        min-height: 40px;
+    }
+
+
+    .main_slider
+    {
+        padding-top: 30px;
+    }
+
+    .main_slider:after
+    {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 20px;
+        height: 1px;
+        width: calc(100% - 40px);
+        background: #C3C6EC;
+    }
+
+    .main_slider:before{
+        opacity: 1;
+    }
+
+    .main_slider .slide .img
+    {
+        padding-bottom: calc(59% - 1px);
+    }
+
+    .main_slider .items .box_img:before
+    {
+        top: -5px;
+        left: -5px;
+
+        border-top: 1px solid #6067AB;
+        border-left: 1px solid #6067AB;
+    }
+
+    .main_slider .items .box_img:after
+    {
+        bottom: -5px;
+        right: -5px;
+
+        border-bottom: 1px solid #6067AB;
+        border-right: 1px solid #6067AB;
+    }
+
+    .main_slider .info .title
+    {
+        font-size: 26px;
+    }
+
+    .main_slider .info .desc
+    {
+        margin-top: 10px;
+    }
+
+    .main_slider .slide .more a
+    {
+        width: 100%;
+    }
+
+
+    .advantages .item
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .advantages .item .bg
+    {
+        width: 193px;
+        height: 193px;
+        top: -73px;
+        left: -46px;
+    }
+
+    .advantages .item .number
+    {
+        font-size: 33px;
+    }
+
+    .advantages .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .about .info .logo img
+    {
+        max-width: 51px;
+    }
+
+    .about .info .logo .logo_text
+    {
+        margin-left: 14px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .about .items .box_img:before
+    {
+        top: -5px;
+        right: auto;
+        left: -5px;
+
+        border-top: 1px solid #6067AB;
+        border-left: 1px solid #6067AB;
+        border-right: none;
+        border-radius: 14px 0 0 0;
+    }
+
+    .about .items .box_img:after
+    {
+        bottom: -5px;
+        left: auto;
+        right: -5px;
+
+        border-bottom: 1px solid #6067AB;
+        border-right: 1px solid #6067AB;
+        border-left: none;
+        border-radius: 0 0 14px 0;
+    }
+
+    .about .slide .img
+    {
+        padding-bottom: calc(59% - 1px);
+    }
+
+
+    .medical_center .main_title.center,
+    .medical_center .main_subTitle.center
+    {
+        text-align: left;
+    }
+
+    .medical_center .box_img
+    {
+        margin-left: -74px;
+        /* margin-right: -24px; */
+        width: calc(100% + 74px);
+    }
+
+    .medical_center .box_img img
+    {
+        display: none;
+    }
+
+    .medical_center .box_img img.mob
+    {
+        display: block;
+        min-width: 399px;
+    }
+
+
+    .gallery .img
+    {
+        padding-bottom: calc(59% - 1px);
+    }
+
+
+    .choose_direction .grid
+    {
+        margin: 12px 0 0 -8px;
+    }
+
+    .choose_direction .grid .item
+    {
+        width: calc(100%/2 - 8px);
+        margin-left: 8px;
+        padding: 30px 15px;
+        min-height: 100px;
+    }
+
+    .choose_direction.inner .grid .item
+    {
+        padding: 30px 10px;
+        min-height: 100px;
+    }
+
+    .choose_direction .grid .item.big {
+        width: calc(100% - 8px);
+        min-height: 120px;
+    }
+
+    .choose_direction .item .name,
+    .choose_direction.inner .item .name
+    {
+        font-size: 14px;
+    }
+
+    .choose_direction .item .bg
+    {
+        width: 119px;
+        height: 119px;
+        top: -60px;
+        left: -40px;
+    }
+
+    .choose_direction.inner .item .bg
+    {
+        top: -60px;
+        left: -40px;
+    }
+
+    .choose_direction .item .arrow
+    {
+        width: 13px;
+        height: 12px;
+        bottom: 14px;
+        right: 13px;
+    }
+
+    .choose_direction.inner .item .arrow
+    {
+        bottom: 14px;
+        right: 13px;
+    }
+
+
+    .about_clinic .grid .item
+    {
+        width: 100%;
+        padding: 40px;
+        min-height: 140px;
+    }
+
+    .about_clinic .item .bg
+    {
+        width: 119px;
+        height: 119px;
+        top: -60px;
+        left: -40px;
+    }
+
+    .about_clinic .item .name
+    {
+        font-size: 14px;
+        line-height: 1.43;
+    }
+
+    .about_clinic .item .arrow
+    {
+        width: 13px;
+        height: 12px;
+        bottom: 14px;
+        right: 14px;
+    }
+
+
+    .our_book .info .text_block
+    {
+        margin-top: 15px;
+    }
+
+    .our_book .info .page_btn a
+    {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .our_book .info .page_btn span
+    {
+        display: none;
+    }
+
+
+    .section_prices .col .phone
+    {
+        font-size: 24px;
+    }
+
+    .section_prices .search .input
+    {
+        font-size: 14px;
+        padding-bottom: 4px;
+        height: 28px;
+    }
+
+    .section_prices .search .submit_btn
+    {
+        width: 28px;
+        height: 28px;
+        margin-left: -28px;
+    }
+
+    .price_table
+    {
+        margin-top: 30px;
+    }
+
+    .price_table thead
+    {
+        display: none;
+    }
+
+    .price_table tr td
+    {
+        vertical-align: bottom;
+    }
+
+    .price_table tr td:first-child
+    {
+        padding-left: 15px;
+    }
+
+    .price_table tr td:last-child
+    {
+        padding-left: 15px;
+    }
+
+
+    .history_table tr td:first-child
+    {
+        font-size: 14px;
+    }
+
+    .history_table .more_btnJs
+    {
+        font-size: 13px;
+        margin-top: 0;
+    }
+
+
+    .virtual_tour .img
+    {
+        padding-bottom: calc(89% + 1px);
+    }
+
+
+    .section_info .img.mob_big_img
+    {
+        padding-bottom: calc(89% + 1px);
+    }
+
+    .section_info .img
+    {
+        padding-bottom: calc(71% + 2px);
+    }
+
+    .article_author .name
+    {
+        font-size: 14px;
+    }
+
+
+    .gallery_small .slider:before,
+    .gallery_small .slider:after
+    {
+        display: none;
+    }
+
+    .gallery_small .img
+    {
+        padding-bottom: calc(64% + 1px);
+    }
+
+    /* VP */
+    .doctors .doctor .photo{
+        width: 80px;
+    }
+
+    .doctors .doctor .top {
+        width: calc(100% - 98px);
+        min-height: 80px;
+    }
+
+    .doctors .doctor .experience{
+        font-size: 14px;
+    }
+
+    .doctors .doctor .name{
+        font-size: 14px;
+    }
+
+    .doctors .doctor .desc{
+        font-size: 13px;
+    }
+
+
+    .reviews .review .read_more{
+        font-size: 13px;
+    }
+
+    .reviews .review .name{
+        margin-top: 20px;
+    }
+
+    .reviews .review .name{
+        font-size: 16px;
+    }
+
+
+    .main_contact .map{
+        height: 170px;
+    }
+
+    .main_contact.inner .map{
+        height: 200px;
+    }
+
+    .main_contact .callback_btn{
+        font-size: 13px;
+    }
+
+
+    .head_section .write_feedback{
+        width: 100%;
+    }
+
+
+    .section_dortor .doctor .photo{
+        width: 80px;
+    }
+
+    .section_dortor .doctor .top{
+        padding-top: 32px;
+        min-height: 80px;
+    }
+
+    .section_dortor .doctor .name {
+        width: calc(100% - 98px);
+        font-size: 14px;
+    }
+
+    .section_dortor .doctor .experience{
+        font-size: 14px;
+        width: calc(100% - 98px);
+    }
+
+
+    .articles .grid{
+        margin-left: 0;
+    }
+
+    .articles .grid .article{
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .services .service .name{
+        font-size: 14px;
+    }
+
+
+    .about_inner .signUp_btn{
+        width: 100%;
+        padding: 0;
+    }
+    /*---------------
+        Footer
+	---------------*/
+    footer .logo a{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .logo .logo_text{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0;
+        max-width: none;
+
+        font-size: 10px;
+        text-align: center;
+    }
+    /*---------------
+       PopUp
+    ---------------*/
+    .modal_title{
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,337 @@
+@media (max-width: 1299px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+
+    /*---------------
+        Header
+	---------------*/
+    header.fixed
+    {
+        padding: 15px 0;
+    }
+
+    header.fixed .info
+    {
+        width: calc(100% - 190px);
+    }
+
+    header.fixed .menu .item > a
+    {
+        font-size: 18px;
+    }
+
+    header .phone a
+    {
+        font-size: 28px;
+    }
+
+    header.fixed .phone a
+    {
+        font-size: 18px;
+    }
+
+    header .signUp_btn
+    {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+
+    header .menu .item .wrapp_menu
+    {
+        max-height: calc(100vh - 191px);
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    header.fixed .menu .item .wrapp_menu
+    {
+        max-height: calc(100vh - 59px);
+    }
+
+    header .menu .item .sub_menu.very_big_sub_menu
+    {
+        width: 895px;
+    }
+
+    header .menu .sub_menu .list_wrapp
+    {
+        font-size: 16px;
+    }
+
+    header .menu .item .sub_menu.very_big_sub_menu .list_wrapp
+    {
+        margin-top: 40px;
+    }
+
+
+    .search_content
+    {
+        padding-top: 125px;
+    }
+
+    .search_content .tabs_container
+    {
+        margin-top: 40px;
+    }
+
+    /*---------------
+        Main section
+	---------------*/
+
+    .main_slider
+    {
+        margin-top: 20px;
+    }
+
+    .main_slider .info
+    {
+        padding-top: 15px;
+    }
+
+
+    .advantages .item
+    {
+        padding: 200px 25px 25px;
+    }
+
+    .advantages .item .number
+    {
+        padding: 30px 25px 0;
+    }
+
+    .advantages .item .bg
+    {
+        width: 274px;
+        height: 274px;
+    }
+
+
+    .about
+    {
+        margin-top: 150px;
+    }
+
+
+    .medical_center
+    {
+        margin-top: 150px;
+    }
+
+    .medical_center .box_img img
+    {
+        margin-top: -50px;
+    }
+
+
+    .gallery
+    {
+        margin-top: 150px;
+    }
+
+
+    .choose_direction
+    {
+        margin-top: 150px;
+    }
+
+    .choose_direction .grid .item
+    {
+        padding: 180px 25px 90px;
+    }
+
+    .choose_direction.inner .item .name
+    {
+        font-size: 28px;
+    }
+
+    .choose_direction .item .bg
+    {
+        width: 274px;
+        height: 274px;
+    }
+
+    .choose_direction .item .icon
+    {
+        top: 25px;
+        left: 25px;
+    }
+
+    .choose_direction .item .arrow
+    {
+        bottom: 20px;
+    }
+
+    .choose_direction.inner .item .arrow
+    {
+        right: 25px;
+    }
+
+
+    .doctors
+    {
+        margin-top: 150px;
+    }
+
+    .doctors .doctor
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .doctors .doctor .photo
+    {
+        left: 30px;
+        width: 34%;
+    }
+
+    .doctors .doctor .top,
+    .doctors .doctor .position,
+    .doctors .doctor .desc,
+    .doctors .doctor .signUp_doctor
+    {
+        width: 56%;
+    }
+
+
+    .main_form
+    {
+        margin-top: 150px;
+    }
+
+
+    .reviews
+    {
+        margin-top: 150px;
+    }
+
+    .reviews .review
+    {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+    .main_contact
+    {
+        margin-top: 150px;
+    }
+
+    .main_contact .adres
+    {
+        margin-left: 50px;
+    }
+
+
+    .licenses
+    {
+        margin-top: 150px;
+    }
+
+
+    .gallery_small,
+    .section_prices.marg
+    {
+        margin-top: 150px;
+    }
+
+    /* VP */
+    .seo_text{
+        margin-top: 150px;
+    }
+
+
+    .filter .item{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .write_feedback{
+        padding-left: 25px;
+        padding-right: 25px;
+
+        min-width: 1px;
+    }
+
+
+    .form_review{
+        margin-top: 150px;
+    }
+
+    .head_form.flex{
+        margin-left: 0;
+    }
+
+    .head_form.flex .main_title{
+        width: 100%;
+        text-align: center;
+
+        margin-left: 0;
+    }
+
+    .head_form.flex .main_subTitle{
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .section_dortor .doctor{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+
+    .articles{
+        margin-top: 150px;
+    }
+
+
+    .services{
+        margin-top: 150px;
+    }
+
+
+    .about_inner .col_l{
+        padding-top: 0;
+    }
+
+
+    .list_specialists{
+        margin-top: 150px;
+    }
+
+    .accordion .item .title{
+        font-size: 20px;
+
+        min-height: 60px;
+
+        padding: 10px 80px 10px 20px;
+    }
+
+    .accordion .item .title span {
+        margin-top: -20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .accordion .data {
+        padding: 0 20px 30px;
+    }
+    /*---------------
+        Footer
+	---------------*/
+
+    footer
+    {
+        margin-top: 150px;
+    }
+
+
+    /*---------------
+       PopUp
+    ---------------*/
+}
